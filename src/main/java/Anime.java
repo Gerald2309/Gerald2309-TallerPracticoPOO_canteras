@@ -44,10 +44,10 @@ public class Anime {
 
     protected void itsLong(){
         if(this.chapters > 25){
+
             System.out.println("anime " +this.name+" is long");
         }
         else {
-
             System.out.println("anime " +this.name+" is not long");
 
         }
